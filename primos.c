@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
-#include <inttypes.h>
 
 int main(void) {
     long long int i;
@@ -10,7 +9,7 @@ int main(void) {
     clock_t start, end;
     double execution_time;
     printf("Digite um número inteiro para descobrir se ele é primo: ");
-    scanf("%llx", &num);
+    scanf("%lld", &num);
     start = clock();
     if (num <0){
         num = num * -1;
@@ -24,7 +23,7 @@ int main(void) {
             break;
         }
         else {
-            if (num%i == 0 && num != i || num == 1){
+            if ((num%i == 0 && num != i) || (num == 1)){
                 printf("O número escolhido não é primo.\n");
                 break;
             }
