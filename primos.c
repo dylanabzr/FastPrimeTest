@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main(void) {
-    long long int i;
+    int i;
     long long int num;
     long long int sqrtnum;
     clock_t start, end;
