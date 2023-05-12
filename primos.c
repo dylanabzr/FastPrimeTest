@@ -9,7 +9,7 @@ int main(void) {
     clock_t start, end;
     double execution_time;
     printf("Digite um número inteiro para descobrir se ele é primo: ");
-    scanf("%lld", &num);
+    if(scanf("%lld", &num)){};
     start = clock();
     if (num <0){
         num = num * -1;
@@ -18,10 +18,12 @@ int main(void) {
     sqrtnum = ceil(sqrtnum);
     for (i = 3; i <= sqrtnum + 3; i += 2)
     {
-        if (num%2 == 0 && num != 2)  {
-            printf("O número escolhido não é primo.\n");
-            break;
-        }
+	if (i == 3) {
+        	if (num%2 == 0 && num != 2)  {
+            		printf("O número escolhido não é primo.\n");
+            		break;
+        	}
+	}
         else {
             if ((num%i == 0 && num != i) || (num == 1)){
                 printf("O número escolhido não é primo.\n");
