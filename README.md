@@ -3,4 +3,4 @@ Code made to get the highest speed possible calculating big prime numbers. The b
 
 The code was compiled using "gcc primes.c -o primes -O3 -lm" line.
 
-To test the speed of the code i use the Marsenne prime 2305843009213693951 that is 0x1fffffffffffffff or 2⁶¹- 1, the biggest prime i could find that did not break the 64 bits barrier.
+To test the speed of the code i used the Marsenne prime 2305843009213693951 that is 0x1fffffffffffffff or 2⁶¹- 1, the biggest prime i could find that did not break the 64 bits barrier.
