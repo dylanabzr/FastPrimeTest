@@ -1,6 +1,2 @@
 # Teste-de-Numero-Primo
-Código escrito em C que testa se o número escolhido é primo ou não.
-Números grandes (proximos a 64 ou 63 bits) podem não ser calculados corretamente.
-O código calcula também o tempo de execução.
-
-Em "primos.c" temos o código escrito em C e em "primos" temos o código já compilado pelo GCC em formato ELF.
+Code made to get the highest speed possible calculating big prime numbers. The biggest problem of the code is the number limit to 64 bits longer, i tried everything but nothing was possible to get the number bigger. If you can help improve the code speed or the number limit, please, do a pull request.
