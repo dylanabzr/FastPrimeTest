@@ -1,5 +1,5 @@
 # FastPrimeTest
-Code made to get the highest speed possible calculating big prime numbers. The biggest problem of the code is the number limit to 64 bits longer, i tried everything but nothing was possible to get the number bigger. If you can help improve the code speed or the number limit, please, do a pull request.
+Code made to get the highest speed possible calculating big prime numbers. The biggest problem of the code is the number limit to 64 bits longer, i've tried everything but nothing was possible to get the number bigger. If you can help improve the code speed or the number limit, please, do a pull request.
 
 ![Screenshot from 2023-05-13 06-41-56](https://github.com/dylanabzr/FastPrimeTest/assets/128552152/95bb012b-3c50-4f35-9038-7c655e1d1b22)
 
