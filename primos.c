@@ -13,9 +13,9 @@ int main(void) {
    //if(scanf("%lld", &num)){};
 
     start = clock();
-    if (num <0){
-        num = num * -1;
-    }
+    //if (num <0){
+    //    num = num * -1;
+    //}
     sqrtnum = sqrt(num);
     sqrtnum = ceil(sqrtnum);
     for (i = 3; i <= sqrtnum + 3; i += 2)
