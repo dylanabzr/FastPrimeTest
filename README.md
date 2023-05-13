@@ -9,4 +9,5 @@ To test the speed of the code i used the Marsenne prime 2305843009213693951 that
 
 The current highest speed i got to calculate if 2⁶¹-1 is whether prime or not:
 ![CodeSpeed](https://github.com/dylanabzr/FastPrimeTest/assets/128552152/a94b80ad-2e6d-457f-b15c-dc2e1d61d5b1)
+
 OBS: That kinda obvious but i'll say it anyway, if you have a better CPU the code will get faster. That test was made on a 8th generation i5 with 6 cores and 12 threads (the specific model i don't have idea cause i made this test in the university computer that's way better than mine)
