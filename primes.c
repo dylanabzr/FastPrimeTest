@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
-#include <inttypes.h>
+#include <limits.h>
 
 int main(void) {
     int i;
-    uintmax_t num = 2305843009213693951;
-    uintmax_t sqrtnum;
+    unsigned long long int num = 2305843009213693951ULL;
+    unsigned long long int sqrtnum;
     clock_t start, end;
     double execution_time;
    //printf("Input a number to test if its prime or not: ");
@@ -19,17 +19,17 @@ int main(void) {
     {
 	if (i == 3) {
         	if (num%2 == 0 && num != 2)  {
-            		printf("%ld's not prime.\n", num);
+            		printf("%llu's not prime.\n", num);
             		break;
         	}
 	}
         else {
             if ((num%i == 0 && num != i) || (num == 1)){
-                printf("%ld's not prime.\n", num);
+                printf("%llu's not prime.\n", num);
                 break;
             }
             else if (i >= sqrtnum){
-                printf("%ld's prime.\n", num);
+                printf("%llu's prime.\n", num);
                 break;
             }
 
