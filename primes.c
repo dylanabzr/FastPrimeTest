@@ -7,8 +7,7 @@ void IsPrime(unsigned long long int num){
     unsigned long long int sqrtnum;
     sqrtnum = sqrt(num);
     sqrtnum = ceil(sqrtnum);
-    for (i = 3; i <= sqrtnum + 3; i += 2)
-    {
+    for (i = 3; i <= sqrtnum + 3; i += 2){
 	if (i == 3) {
         	if (num%2 == 0 && num != 2)  {
             		printf("%llu's not prime.\n", num);
@@ -24,8 +23,7 @@ void IsPrime(unsigned long long int num){
                 printf("%llu's prime.\n", num);
                 break;
             }
-
-        }
+	}
     }
 }
 int main() {
