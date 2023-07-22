@@ -5,11 +5,10 @@
 #include <stdbool.h>
 
 bool IsPrime(unsigned long long int num){
-    int i;
     unsigned long long int sqrtnum;
     sqrtnum = ceil(sqrt(num));
-    for (i = 3; i <= sqrtnum + 3; i += 2){
-	if (i == 3) {
+    for (int i = 3; i <= sqrtnum + 3; i += 2){
+	    if (i == 3) {
         	if (num%2 == 0 && num != 2)  {
             		return false;
         	}
