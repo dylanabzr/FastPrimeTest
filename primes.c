@@ -4,7 +4,7 @@
 #include <limits.h>
 #include <stdbool.h>
 
-bool IsPrime(unsigned long long int num){
+bool isPrime(unsigned long long int num){
     unsigned long long int sqrtnum = ceil(sqrt(num));
     for (int i = 3; i <= sqrtnum + 3; i += 2){
 	    if (i == 3) {
@@ -22,7 +22,7 @@ int main() {
     clock_t start, end;
     double execution_time;
     start = clock();
-    printf("%s\n",IsPrime(2305843009213693951ULL)?"True":"False");
+    printf("%s\n",isPrime(2305843009213693951ULL)?"True":"False");
     end = clock();
     execution_time = ((double)(end - start))/CLOCKS_PER_SEC;
     printf("[%lf seconds to execute]\n", execution_time);
