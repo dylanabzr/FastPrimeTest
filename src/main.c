@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
-#include <limits.h>
-#include <stdbool.h>
 #include "../include/primes.h"
 
 int main() {
