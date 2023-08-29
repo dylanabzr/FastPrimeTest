@@ -3,7 +3,7 @@
 #include <time.h>
 #include <limits.h>
 #include <stdbool.h>
-#include "primes.h"
+#include "../include/primes.h"
 
 int main() {
     clock_t start, end;
