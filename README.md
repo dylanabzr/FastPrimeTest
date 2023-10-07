@@ -11,4 +11,4 @@ The current highest speed i got to calculate if 2⁶¹-1 is whether prime or not
 
 ![CodeSpeed](https://github.com/dylanabzr/FastPrimeTest/blob/main/test.jpeg)
 
-OBS: That's kinda obvious but i'll say it anyway. If you have a better CPU the code will run faster. That test was made on a 8th generation i5 with 6 cores and 12 threads (the specific model i don't have any idea cause i made this test in the university computer)
+OBS: That's kinda obvious but i'll say it anyway. If you have a better CPU the code will run faster. That test was made on a Ryzen 5 4600G
